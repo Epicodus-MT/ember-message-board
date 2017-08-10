@@ -1,50 +1,90 @@
-# weekly-project
+<img src="epicodus.png" align="right" />
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# Super Rentals
 
-## Prerequisites
+> **Technologies Used** - Javascript, HTML, Firebase API.
+> **IDE Used** - Atom.
 
-You will need the following things properly installed on your computer.
+#### By _**Mara Timberlake**_
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Ember CLI](https://ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+Application for a vacation rental company called Super Rentals.
 
-## Installation
+## Description
 
+_This application allows users to list their properties for visitors and vacationers to rent._
+
+## What's included
+Within the repository you'll find the following directories and files:
+
+```
+super-rentals/
+├── app/
+|    └── adapters/
+|    └── components/
+|    └── controllers/
+|    └── helpers/
+|    └── models/
+|    └── routes/
+|    └── styles/
+|    └── templates/
+|    └── app.js
+|    └── index.html
+|    └── resolver.js
+|    └── router.js
+├── config/
+|    └── environment.js
+|    └── targets.js
+├── public/
+|    └── crossdomain.xml
+|    └── robots.txt
+├── tests/
+|    └── helpers/
+|    └── integration/
+|    └── unit/
+|    └── .jshintrc
+|    └── index.html
+|    └── test-helper.js
+├── vendor/
+├── .gitignore
+├── bower.json
+├── package-lock.json
+├── package.json
+└── README.md
+
+```
+
+## Setup/Installation Requirements
+To run this program:
+* _LOCAL: Go to Terminal_
 * `git clone <repository-url>` this repository
-* `cd weekly-project`
+* `cd super-rentals`
 * `npm install`
+* `bower install`
 
 ## Running / Development
-
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
-
 Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
-
 * `ember test`
 * `ember test --server`
 
 ### Building
-
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+## Known Bugs
+_No known bugs at this time._
 
-Specify what it takes to deploy your app.
+## Support and Contact Details
+For questions or feedback, please contact [Mara Timberlake](<contact-info.md>).
 
-## Further Reading / Useful Links
+## License
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://opensource.org/licenses/MIT)
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+To the extent possible under law, the author has waived all copyright and related or neighboring rights to this work.
+
+Copyright (c) 2017 *_Mara Timberlake_*
