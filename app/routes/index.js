@@ -4,8 +4,14 @@ export default Ember.Route.extend({
   model() {
     return this.store.findAll('question');
   },
-});
 
+  actions: {
+    destroyQuestion(question) {
+      question.destroyAnswer();
+      this.transitionTo('index');
+    }
+  }
+});
 // import Ember from 'ember';
 //
 // var rentals = [{
