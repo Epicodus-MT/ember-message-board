@@ -1,0 +1,8 @@
+<li>
+  {{question.author}}'s Question - {{question.question}}, Topic: {{question.topic}}
+  {{#if isImageShowing}}
+    <p><img src={{question.image}} alt={{question.topic}} {{action 'imageHide'}}></p>
+  {{else}}
+    <button {{action 'imageShow'}}>Show image</button>
+  {{/if}}
+</li>

@@ -3,8 +3,8 @@
 <p>Thirst for knowledge.</p>
 
 <ul>
-  {{#each model as |rental|}}
-     <li>{{rental.author}}'s question - {{rental.question}}</li>
+  {{#each model as |question|}}
+    {{question-tile question=question}}
   {{/each}}
 </ul>
 
