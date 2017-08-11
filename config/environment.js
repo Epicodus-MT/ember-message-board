@@ -1,6 +1,6 @@
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'super-rentals',
+    modulePrefix: 'super-questions',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',

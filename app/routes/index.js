@@ -18,7 +18,7 @@ export default Ember.Route.extend({
 
 // import Ember from 'ember';
 //
-// var rentals = [{
+// var questions = [{
 //   id: 1,
 //   question: "Where do babies come from?",
 //   author: "Angela Merkel",
@@ -43,6 +43,6 @@ export default Ember.Route.extend({
 //
 // export default Ember.Route.extend({
 //   model() {
-//     return rentals;
+//     return questions;
 //   },
 // });

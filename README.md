@@ -17,7 +17,7 @@ _This application allows users to ask a question, include their name, and any ad
 Within the repository you'll find the following directories and files:
 
 ```
-super-rentals/
+super-questions/
 ├── app/
 |    └── adapters/
 |    └── components/

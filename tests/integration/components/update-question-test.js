@@ -1,7 +1,7 @@
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
 
-moduleForComponent('question-tile', 'Integration | Component | question tile', {
+moduleForComponent('update-question', 'Integration | Component | update question', {
   integration: true
 });
 
@@ -10,15 +10,15 @@ test('it renders', function(assert) {
   // Set any properties with this.set('myProperty', 'value');
   // Handle any actions with this.on('myAction', function(val) { ... });
 
-  this.render(hbs`{{question-tile}}`);
+  this.render(hbs`{{update-question}}`);
 
   assert.equal(this.$().text().trim(), '');
 
   // Template block usage:
   this.render(hbs`
-    {{#question-tile}}
+    {{#update-question}}
       template block text
-    {{/question-tile}}
+    {{/update-question}}
   `);
 
   assert.equal(this.$().text().trim(), 'template block text');

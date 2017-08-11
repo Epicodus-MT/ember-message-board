@@ -1,9 +1,9 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  addNewReview: false,
+  addNewAnswer: false,
   actions: {
-    reviewFormShow() {
+    answerFormShow() {
       this.set('addNewAnswer', true);
     },
     saveAnswer() {
