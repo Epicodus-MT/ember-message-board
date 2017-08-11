@@ -1,0 +1,13 @@
+Written by {{question.author}}, the topic is {{question.topic}} and the question: {{question.question}}. Additional notes: {{question.notes}}.
+<br>
+<p><img src={{question.image}} alt={{question.type}}></p>
+
+
+<h2> Answers </h2>
+<ul>
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}
+  {{/each}}
+</ul>
+
+<button {{action 'delete' question}}>Delete</button>
