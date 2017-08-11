@@ -2,5 +2,11 @@
 
 <p>Thirst for knowledge.</p>
 
+<ul>
+  {{#each model as |rental|}}
+     <li>{{rental.author}}'s question - {{rental.question}}</li>
+  {{/each}}
+</ul>
+
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
