@@ -1,17 +1,17 @@
 <img src="epicodus.png" align="right" />
 
-# Super Rentals
+# Message Board
 
 > **Technologies Used** - Javascript, HTML, Firebase API.
 > **IDE Used** - Atom.
 
 #### By _**Mara Timberlake**_
 
-Application for a vacation rental company called Super Rentals.
+Application for a message board company called Ask Me Anything.
 
 ## Description
 
-_This application allows users to list their properties for visitors and vacationers to rent._
+_This application allows users to ask a question, include their name, and any additional notes. Other users may choose to respond._
 
 ## What's included
 Within the repository you'll find the following directories and files:
@@ -56,8 +56,8 @@ super-rentals/
 ## Setup/Installation Requirements
 To run this program:
 * _LOCAL: Go to Terminal_
-* `git clone <repository-url>` this repository
-* `cd super-rentals`
+* `git clone https://github.com/Epicodus-MT/ember-message-board.git
+* `cd ember-message-board`
 * `npm install`
 * `bower install`
 
