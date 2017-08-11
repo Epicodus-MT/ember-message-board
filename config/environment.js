@@ -1,21 +1,21 @@
-/* eslint-env node */
-'use strict';
-
 module.exports = function(environment) {
-  let ENV = {
-    modulePrefix: 'weekly-project',
-    environment,
+  var ENV = {
+    modulePrefix: 'super-rentals',
+    environment: environment,
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      },
-      EXTEND_PROTOTYPES: {
-        // Prevent Ember Data from overriding Date.parse.
-        Date: false
       }
+    },
+
+    firebase: {
+      apiKey: "AIzaSyAi8qjwrLhg879nn-lAeMlrsy-o9apbXAE",
+      authDomain: "ember-message-board-b4038.firebaseapp.com",
+      databaseURL: "https://ember-message-board-b4038.firebaseio.com",
+      storageBucket: "ember-message-board-b4038.appspot.com",
     },
 
     APP: {
