@@ -6,12 +6,19 @@ export default Ember.Route.extend({
   },
 
   actions: {
+    saveQuestion3(params) {
+      var newQuestion = this.store.createAnswer('question', params);
+      newQuestion.save();
+      this.transitionTo('index');
+    },
+
     destroyQuestion(question) {
       question.destroyAnswer();
       this.transitionTo('index');
     }
   }
 });
+
 // import Ember from 'ember';
 //
 // var rentals = [{
