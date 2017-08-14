@@ -1,9 +1,9 @@
 <h1> Welcome to Ask Me Anything </h1>
 
 <p>Thirst for knowledge.</p>
+<hr>
 
 <h2> Questions Posted </h2>
-
 <ul>
   {{#each model.questions as |question|}}
     {{question-tile question=question}}
@@ -11,13 +11,3 @@
 </ul>
 
 {{new-question saveQuestion2="saveQuestion3"}}
-
-<h2> All Answers </h2>
-
-<ul>
-  {{#each model.answers as |answer|}}
-    <li>{{answer.rating}} - {{answer.reply}} - by {{answer.author}}</li>
-  {{/each}}
-</ul>
-
-<hr>

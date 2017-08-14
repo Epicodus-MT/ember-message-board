@@ -1,13 +1,14 @@
 <div class="container">
   <header class = "jumbotron">
     <h1>Ask Me Anything</h1>
+    {{#link-to 'index'}}Home Page{{/link-to}}
+    -
+    {{#link-to 'about'}}About Us{{/link-to}}
+    -
     {{#link-to 'contact'}}Contact Us{{/link-to}}
   </header>
     {{outlet}}
   <hr>
   <footer>
-    {{#link-to 'index'}}Home Page{{/link-to}}
-    {{#link-to 'about'}}About Us{{/link-to}}
-
   </footer>
 </div>

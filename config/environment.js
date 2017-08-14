@@ -1,6 +1,6 @@
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'super-questions',
+    modulePrefix: 'message-board',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',

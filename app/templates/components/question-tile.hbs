@@ -1,5 +1,5 @@
 <li>
-  {{#link-to 'question' question.id}}{{question.author}}'s {{question.topic}} in {{question.notes}} {{/link-to}}
+  {{#link-to 'question' question.id}}{{question.query}} ({{question.topic}}) - {{question.author}} {{/link-to}}
   {{#if isImageShowing}}
     <p><img src={{question.image}} alt={{question.topic}} {{action 'imageHide'}}></p>
   {{else}}
