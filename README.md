@@ -16,30 +16,29 @@ _This application allows users to ask a question, include their name, and any ad
 ## Planning
 
 1. Configuration/dependencies
-  * This should include ALL dependencies.
-  * It should also include WHERE they are defined and used in the project
-  * It could include a short description of what each does for you
+  * Ember
+  * Node
+  * Firebase
 
 2. Specs
-  * Spec 1: Description, input, output.
-  * Spec 2: Description, input, output.
+  * Spec 1: User creates question post, User clicks 'New Question' button, New question post is created and added to 'Home Page'.
+  * Spec 2: User comments on a post, User views question post and clicks 'New Answer', form appears and saves the new answer after user clicks 'Save'.
 
 3. Integration
-  * Initial routes or index pages with all dependencies in Controller/index.html head
-  * Template/html page for ...
-  * Template/html page for ...
-  * Template/html page for ... (one for each route/integrated user story)
-  * Display...
-  * Integrate feature that...
+  * Routes for about, contact, index and question
+  * Template/html page for about, contact, index and question
+  * Display all question posts on home page
+  * Display all answer posts on individual pages of each question
+  * Integrate feature that allows users to provide answer to each question post
 
 4. UX/UI
-  * Include and modify bootstrap/materialize/Sass etc.
+  * Include and modify bootstrap
   * Develop custom style
 
 5. Polish
-  * Refactor minor portion of...
-  * Delete unused...
-  * Make README awesome
+  * Clean up page layout with bootstrap
+  * Delete unused ratings code
+  * Update README.md with more details/logos
 
 ## What's included
 Within the repository you'll find the following directories and files:

@@ -4,27 +4,27 @@
     <form>
       <div class="form-group">
         <label for="question">Question</label>
-        {{input value=question id="question" placeholder=question.question}}
+        {{input id="question" value=question.query}}
       </div>
 
       <div class="form-group">
         <label for="author">Author</label>
-        {{input value=author id="author" placeholder=question.author}}
+        {{input id="author" value=question.author}}
       </div>
 
       <div class="form-group">
         <label for="topic">Topic</label>
-        {{input value=topic id="topic" placeholder=question.topic}}
+        {{input id="topic" value=question.topic}}
       </div>
 
       <div class="form-group">
         <label for="notes">Additional Notes</label>
-        {{input value=notes id="notes" placeholder=question.notes}}
+        {{input id="notes" value=question.notes}}
       </div>
 
       <div class="form-group">
         <label for="image">Image URL</label>
-        {{input value=image id="image" placeholder=question.image}}
+        {{input id="image" value=question.image}}
       </div>
 
       <button {{action 'update' question}}>Save</button>
